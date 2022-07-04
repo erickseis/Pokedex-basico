@@ -1,0 +1,131 @@
+
+
+body{
+  
+  background-image: url(https://images.wikidexcdn.net/mwuploads/wikidex/e/e6/latest/20171001182738/EP946_Bosque_de_Melemele.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1600px;
+  
+
+}
+
+.contenedor-padre {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contenedorPokedexRoja{
+  display: flex;  
+  justify-content: center;
+  align-items: top;
+  background-color: rgb(167, 9, 9);
+  width: 500px;
+  height: 600px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.Pokemon-card {
+  background-color: rgba(193, 192, 192, 0.963);
+  border: 10px solid rgb(79, 78, 78); 
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 2rem;
+  width: 400px;
+  height: 300px;
+}
+
+.cracteristicas{
+  display: flex;
+  flex-direction: column;
+  line-height: 0.1rem;
+  margin-top: -11rem;
+  text-align: left;
+  margin-left: 16rem;
+}
+
+.span-azul{
+  background-color: blue;
+  border: 5px solid rgba(0, 255, 34, 0.361);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: -15rem;
+  margin-top: 2rem;
+}
+.span-verde{
+  background-color: rgb(0, 255, 51);
+  border: 5px solid rgba(8, 186, 85, 0.717);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: -10rem;
+  margin-top: -1rem;
+}
+
+
+button {
+  border-color: trasparent;
+  background-color: transparent;
+  border: solid rgba(0, 0, 255, 0);
+  margin-right: -25rem;
+  margin-top: -4rem;
+}
+
+.pokeball {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+img {
+  background-color: rgba(162, 71, 135, 0.831);
+  border-radius: 50%;
+  width: 150px;
+  display: inline-block;
+  margin-left: -12rem;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
